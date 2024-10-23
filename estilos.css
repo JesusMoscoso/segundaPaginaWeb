@@ -1,0 +1,124 @@
+:root {
+    --Purple100: hsl(254, 88%, 90%);
+    --Purple500: hsl(256, 67%, 59%);
+    --Yellow100: hsl(31, 66%, 93%);
+    --Yellow500: hsl(39, 100%, 71%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+  }
+
+  body
+{
+  background-color: aliceblue;
+
+}
+
+  * {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0; 
+
+}
+
+.contenedorGeneral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+    height: auto;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 20px; 
+    text-align: center;
+    border-radius: 10px;
+    margin: 5%; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.conteUno{
+  background-color: var(--Purple500);
+  color: white;
+}
+
+.conteUno h2{
+ font-size: 55px;
+}
+
+.conteUno img{
+  width: 200px;
+  margin-top:10%;
+ }
+
+/*contenedorDos*/
+
+.conteDos{
+  background-color: var(--White);
+  font-size: 30px;
+  text-align: left;
+}
+
+.conteDos h2{
+  font-size: 20px;
+ }
+
+
+
+/*contenedorTres*/
+.conteTres{
+  font-size: 30px;
+  text-align: left;
+  background-color: var(--Yellow500);
+   padding: 0px;
+}
+
+.conteTres h2{
+  margin-left:20px;
+  font-size: 30px;
+  margin: 5%;
+}
+
+.conteTres img{
+  width:200px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+/*contecuatro*/
+.conteCuatro{
+  background-color: var(--Purple100);
+}
+
+.conteCuatro h2{
+  font-size: 30px;
+}
+
+.conteCuatro img{
+  margin-top: 10px;
+}
+
+.conteCuatro p{
+  font-size: 20px;
+}
+
+/*cinco*/
+.conteCinco{
+  background-color:var(--Purple500);
+  color:var(--White);
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.conteCinco img{
+ width: 250px;
+}
+
+.conteCinco h2{
+
+}
